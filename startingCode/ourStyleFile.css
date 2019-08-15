@@ -1,0 +1,7 @@
+/* This is where all of your styling goes. This gets imported to the HTML file inside of the <link> </link> tag in the <head></head> of the HTML */
+
+/* This says all h1 tags should have the following style property */
+h1 {
+  /* their text color should be blue */
+  color: blue;
+}
