@@ -25,3 +25,20 @@
             - Hint: use CSS style property `display: none` and the JS `.classList` .add or .remove
             - Try googling for a way to do this. If  you get stuck click on the reference below.
             - [Reference](https://www.w3schools.com/jsref/prop_element_classlist.asp)
+
+
+
+### Lesson Plan Structure
+
+* For each section
+    - Required
+    - Real world Current examples ( What's popular atm? Sporting events, Current movies, )
+    - Optional deeper dives
+
+* HTML
+    Jenny
+* CSS
+    Jenny   
+* JS 
+    Will
+    
