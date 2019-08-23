@@ -33,7 +33,7 @@
 * For each section
     - Required
     - Real world Current examples ( What's popular atm? Sporting events, Current movies, )
-    - Optional deeper dives
+    - Optional deeper dives if you finish you're required section and have extra time
 
 * HTML
     Jenny
@@ -41,4 +41,7 @@
     Jenny   
 * JS 
     Will
+* Repl notes
+    Will
     
+
