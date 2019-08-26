@@ -4,7 +4,7 @@
 // you will see 'var' used to declare variables. You will also see 'let' and 'const' used
 // 'var' is an older style of writing JavaScript
 // 'const' is newer and is used more often now. It is short for `Constant`. It is not allowed to change. 
-// 'let' is used when we want something to change over time. This is used when we want a number to increase over the corse of our code. 
+// 'let' is used when we want something to change over time. This is used when we want a number to increase over the course of our code. 
 
 
 
