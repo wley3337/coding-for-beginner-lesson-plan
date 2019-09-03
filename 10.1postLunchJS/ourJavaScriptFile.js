@@ -1,1 +1,0 @@
-// this is where you write all of you JavaScript code. It gets imported to the HTML page inside of the <script> </script> tag
