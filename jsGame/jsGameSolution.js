@@ -1,4 +1,9 @@
 
+
+// ************ BE SURE TO LINK THE CORRECT JAVASCRIPT FILE TO YOUR HTML **********
+
+
+
 // Adding the start of our game information to this event listener 
 // makes sure that our webpage is fully loaded before we start doing anything. 
 // This means that even if our <script> tag is moved to the top of the file
@@ -50,12 +55,16 @@ function playerTurn(square){
 
 function didIWin(){
 
-    //what are the conditions we need to check to see if person has won? 
+    // what are the conditions we need to check to see if person has won? 
     // think about the id of the square. What would the text in the other squares look like if we won? 
     // our board by id looks like: 
             //     1|2|3
             //     4|5|6
             //     7|8|9
+
+    // each of these statements returns a 'true' or 'false' 
+    // since we use the `or` ( || ) if any of these return true someone has won. 
+    // you can look at the logic for each of these below,
     return(
         squareCornerWin() || 
         squareCenterWin() ||
@@ -72,10 +81,15 @@ function player(){
 
 //change player function
 function changePlayer(){
-    const currentPlayer = player().innerText 
+    // look to see who the 'current' player is
+    const currentPlayer = player().innerText
+     //if the current player is player 'X'
     if(currentPlayer=== "X"){
+        //change it to player 'O'
         player().innerText = "O"
+    //otherwise
     }else{
+        //change it to player 'X'
         player().innerText = "X"
     }
 
@@ -113,9 +127,14 @@ function squareNine(){
 
 //generic add event listener 'onClick'
 function addEventListenerToSquare(square){
+    //given a square of our board, add an 'click' event listener that calls on a function of the player's turn
     square.addEventListener('click', function(){playerTurn(square)}  )
 }
 
+
+
+// WIN CONDITIONS
+// each condition needs to be true in order for a square to 'win' See if you can look through and follow what's being checked
 //if it's a corner square
 function squareCornerWin(){
   if(squareOne().children[0].innerText === squareTwo().children[0].innerText &&
