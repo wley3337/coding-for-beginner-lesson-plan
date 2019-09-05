@@ -30,6 +30,8 @@ let booleanBadDay = false;
 const stringTypeWithDoubleQuotes = "get the cheese"
 const stringTypeWithSingleQuotes = 'unwrap the cheese'
 const stringTypeWithBackTicks = `eat the cheese` 
+const interpolatedString = `Once ${once}` 
+console.log(interpolatedString)
 
 let numberInteger = 42 
 let numberFloats = 3.14 //mmmmm... pie
