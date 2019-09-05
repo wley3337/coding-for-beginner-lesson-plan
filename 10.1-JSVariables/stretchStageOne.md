@@ -8,7 +8,7 @@
     * Take an array of names `["Charlotte", "Bob"]` or whatever names you would like and iterate through them 
     * Create a `<p></p>` with each of the names ( `<p>Charlotte</p>` ) 
     * Add those `<p></p>` new tags to a new array
-* Supper challenge: 
+* Super challenge: 
     * Take that array and append each of it's elements to the DOM
     * It can be in a list ( `<ul> <li>NAME HERE</li> </ul>`) or as the `<p></p>` tags
 
